@@ -423,10 +423,9 @@ height:100%;
     <script>
     $(document).ready(function(){
       
-      $.getJSON( "https://imm-cors.herokuapp.com/g1.globo.com", function( data ) {
-       console.log(data);
- 
-      });
+     $.get("https://imm-cors.herokuapp.com/g1.globo.com", function(data, status){
+        console.log("Data: " + data + "\nStatus: " + status);
+    });
       
   // Add smooth scrolling to all links
   $("a").on('click', function(event) {
