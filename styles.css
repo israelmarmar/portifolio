@@ -137,7 +137,7 @@ main .headpage .intro-text {
   }
 
 
-@media only screen and (min-width: 1023px){
+@media  (min-width: 1023px){
 .headpage{
     padding-top: 90px;
     padding-right: 30px;
@@ -158,7 +158,7 @@ main .headpage .intro-text {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media  (max-width: 768px) {
 /* For mobile phones: */
   body{
     display:flex;
@@ -231,7 +231,7 @@ h2{
 }
 
 
-@media only screen and (min-width: 768px) {
+@media  (min-width: 768px) {
    /* For desktop: */
   .page{
   text-align: left;
@@ -307,7 +307,7 @@ border: none;
 }
 
 
-@media only screen and (max-width: 992px) {
+@media  (max-width: 992px) {
         .container, .container-fluid{
             padding: 0px !important;
       }
