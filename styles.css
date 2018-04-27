@@ -309,7 +309,7 @@ border: none;
 
 
 @media only screen and (max-width: 992px) {
-        .container {
+        .container, .container-fluid{
             padding: 0px !important;
       }
 }
