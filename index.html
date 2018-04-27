@@ -16,17 +16,29 @@
 
 <body translate="no" id="top">
 
+<svg class="defs-only">
+  <filter id="duotone" color-interpolation-filters="sRGB"
+          x="0" y="0" height="100%" width="100%">
+    <feColorMatrix type="matrix"
+      values="0 0 0 0 .7  0 0 0 0 .4  0 0 0 0 .5  0 0 0 1 0" />
+  </filter>
+</svg>
+
+<header class="headpage container-fluid">
+  
+<div class="intro-text">
+<h1>
+Hello, I'm Israel
+</h1><br>
+<p id="abt">I am Full Stack developer living in Manaus, Brazil. I make web aplications usually with React and NodeJs.</p>
+
+</div>
+
+</header>
+
   <div id="page" class="page container">
   
   <main>
-<header class="headpage">
-  
-<div class="intro-text">
-<p id="abt">Front-End/Back-End Developer. Computer engineering student from Federal University of Amazonas, Brazil. Programmer with experience in Java and C. Aspiring Full Stack Web Developer</p>
-  <hr id="ab"><p id="desc">Web Developer - Programmer - Student</p>
-</div>
-  <img id="profile" src="https://avatars1.githubusercontent.com/u/14979578?v=3&s=460">
-</header>
 
   <h2 class="text-center" id="work">My work</h2><br>
   
@@ -119,24 +131,7 @@
    </div>
 
   </main>
-  <hr align="center" style="width:100%;height: 3px; background-color:#999999;">
 
-  
-  <h2 class="text-center" id="contact">Contact me</h2>
-  
-  <div id="btns">
-   <a rel="nofollow" href="mailto:israel_batista.am@hotmail.com"> <button class="contact-button"><img class="icon"  src="https://outlook.live.com/owa/favicon.ico"></button></a>
-  
-  <a rel="nofollow" href="https://www.linkedin.com/in/israelmarquesmartins/"> <button class="contact-button"><img class="icon" src="https://cdn3.iconfinder.com/data/icons/socialnetworking/32/linkedin.png"></button></a>
-  
-    <a rel="nofollow" href="https://github.com/israelmarmar"> <button class="contact-button"><img class="icon" src="https://assets-cdn.github.com/favicon.ico"></button></a>
-  
-  <a rel="nofollow" href="https://www.freecodecamp.com/israelmarmar"> <button style="position:relative;top:3px;" class="contact-button"><img class="icon" src="https://cdn-images-1.medium.com/fit/c/36/36/1*MotlWcSa2n6FrOx3ul89kw.png"></button></a>
-    
-     <a rel="nofollow" href="https://codepen.io/israelmarmar"> <button style="position:relative;top:3px;" class="contact-button"><img class="icon" src="https://production-assets.codepen.io/assets/favicon/favicon-8ea04875e70c4b0bb41da869e81236e54394d63638a1ef12fa558a4a835f1164.ico"></button></a>
-    
-    </div>
-  
   
   <div id="popup" class="navbar navbar-inverse navbar-static-top navbar-light" role="navigation">
     <div class="container">
@@ -180,8 +175,10 @@
 
 <script src='lazyload.js'></script>
     <script>
+
     $(document).ready(function(){
-      $("#screen").text(screen.width);
+
+
 
   // Add smooth scrolling to all links
   $("a").on('click', function(event) {
@@ -217,9 +214,24 @@
 
  
 </div>
+
 <div class="container">
     Designed &amp; Coded by
     <a rel="nofollow" style="color:white;" href="https://www.linkedin.com/in/israelmarquesmartins/" target="_blank">
         Israel Martins</a>
   </div>
+
+  <div id="btns" class="container">
+   <a rel="nofollow" href="mailto:israel_batista.am@hotmail.com"> <button class="contact-button"><img class="icon"  src="images/favicon.ico"></button></a>
+  
+  <a rel="nofollow" href="https://www.linkedin.com/in/israelmarquesmartins/"> <button class="contact-button"><img class="icon" src="images/linkedin.png"></button></a>
+  
+    <a rel="nofollow" href="https://github.com/israelmarmar"> <button class="contact-button"><img class="icon" src="images/github.ico"></button></a>
+  
+  <a rel="nofollow" href="https://www.freecodecamp.com/israelmarmar"> <button style="position:relative;top:3px;" class="contact-button"><img class="icon" src="images/frecodecamp.png"></button></a>
+    
+     <a rel="nofollow" href="https://codepen.io/israelmarmar"> <button style="position:relative;top:3px;" class="contact-button"><img class="icon" src="images/favicon-8ea04875e70c4b0bb41da869e81236e54394d63638a1ef12fa558a4a835f1164.ico"></button></a>
+    
+    </div>
+
 </body></html>
