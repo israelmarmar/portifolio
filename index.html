@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-
+<!-- saved from url=(0042)https://israelmarmar.github.io/portifolio/ -->
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   
    <title>Portifolio</title>
@@ -14,7 +14,7 @@
 
 <body translate="no" id="top">
 
-  <div class="page container">
+  <div id="page" class="page container">
   
   <main>
 <header class="headpage">
@@ -184,10 +184,8 @@
 <script src='lazyload.js'></script>
     <script>
     $(document).ready(function(){
-
-      if(screen.width < 800 /*some amount that should be a mobile's phone screen width probably*/ ){
-        $('div.container').addClass('container-fluid').removeClass('container');
-      }
+      $("#screen").text(screen.width);
+      
       
   // Add smooth scrolling to all links
   $("a").on('click', function(event) {
@@ -222,4 +220,10 @@
 
 
  
-</div></body></html>
+</div>
+
+<p id="screen">
+
+</p>
+
+</body></html>
