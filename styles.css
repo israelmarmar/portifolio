@@ -220,6 +220,15 @@ main .headpage .intro-text {
 
 }
 
+h2{
+ color:black;
+  font-family:Helvetica,Arial;
+  text-align:center;
+  font-size:50px;
+  
+     max-width: 700%; 
+}
+
 }
 
 
@@ -297,3 +306,4 @@ border: none;
  
 
 }
+
