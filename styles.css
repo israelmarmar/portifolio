@@ -1,5 +1,6 @@
 body{
   background-color:#4d4d4d;
+  font-family:Helvetica,Arial;
 }
 
 
@@ -96,8 +97,66 @@ h3{
 .container-fluid {
   margin-right: auto;
   margin-left: auto;
-  width:400px;
-  max-width: 100%; /* or 950px */
+  width:400px;/* or 950px */
+}
+
+main{
+
+justify-content: space-around;
+}
+
+.headpage{
+    background-color:#00995c;
+    color: #fff;
+    text-align: right;
+    padding: 70px 10% 50px;
+    align-items: flex-end;
+    align-content: space-around;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-end; 
+    justify-content: space-around;
+
+}
+
+#profile{
+      border-radius: 50%;
+    margin: 30px 0 10px;
+    max-width: 80%;
+    height: auto;
+    width: 250px;
+}
+
+main .headpage .intro-text {
+    max-width: 675px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#desc{
+       font-size: 1.15em;
+  }
+
+
+@media (min-width: 1023px){
+.headpage{
+    padding-top: 90px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+  }
+
+  #abt {
+    text-align: right;
+    font-family: Helvetica,Arial;
+    font-size: 20px;
+    color: white;
+  }
+
+  .intro-text {
+    text-align: right;
+    width: 610px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -109,36 +168,14 @@ h3{
     text-align: center; 
   }
 
-  .headpage{
-background-color:#00995c;
-width:100%;
-margin-bottom:50px;
-text-align: center;
-height:500px;
-padding-bottom: 30px;
-padding-left: 10px;
-padding-right: 10px;
-}
-
  #about{
   text-align:left;
   font-family:Helvetica,Arial;
   font-size:20px;
   width:400px;
   color:white;
-  display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
 
-  #abt{
-    font-family: Helvetica,Arial;
-    font-size: 20px;
-    color: white;
-     display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
+}
 
   .page{
   text-align: left;
@@ -149,14 +186,11 @@ padding-right: 10px;
   text-align: center; 
 
   font-family: Monospace;
-  width:100%;
-  height:100%;
+
   padding:0px 0px 20px 0px !important;
 }
 
   #profile{
-  
-  display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top:100px;
@@ -186,16 +220,6 @@ padding-right: 10px;
 
 }
 
-    #desc{
- font-family:Helvetica,Arial;
-  font-size:15px; 
-  color:white;
-      height:auto;
-      margin-left: auto;
-    margin-right: auto;
-
-}
-
 }
 
 
@@ -219,7 +243,7 @@ padding-right: 10px;
 
 .headpage{
 background-color:#00995c;
-width:100%;
+
 margin-bottom:100px;
 }
   .port{
@@ -242,21 +266,9 @@ margin-bottom:100px;
   font-size:20px;
   width:400px;
   color:white;
-  position:relative;
-  left:-130px;
-     top:12px;
+  
 }
 
-
-  #abt{
-    font-family: Helvetica,Arial;
-    font-size: 20px;
-    color: white;
-    width:490px;
-    position: relative;
-    top:100px;
-    left:170px;
-  }
 
   #ab {
 height: 3px;
@@ -264,9 +276,6 @@ height: 3px;
 
 background-color: white;
 border: none;
-  position:relative;
-  top:100px;
-  right:150px;
 }
   
   #btns{
@@ -284,26 +293,7 @@ border: none;
   
      max-width: 700%; 
 }
-  
-  #desc{
- font-family:Helvetica,Arial;
-  font-size:20px; 
-  color:white;
-  position:absolute;
-  left:360px;
-    top:240px;
-}
-  
-  #profile{
-  position:absolute;
-  left:860px;
-  top:82px;
-  width:220px;
-  
- background-color:white;
-  border-radius: 110px;
-}
-
-
+   
+ 
 
 }
