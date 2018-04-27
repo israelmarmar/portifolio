@@ -137,7 +137,7 @@ main .headpage .intro-text {
   }
 
 
-@media (min-width: 1023px){
+@media only screen and (min-width: 1023px){
 .headpage{
     padding-top: 90px;
     padding-right: 30px;
