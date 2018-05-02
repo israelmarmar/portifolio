@@ -114,11 +114,7 @@ h3{
     color: #fff;
     text-align: right;
     padding: 70px 10% 50px;
-    align-items: flex-end;
-    align-content: space-around;
-    display: flex;
-    flex-flow: row wrap;
-    align-items: flex-end; 
+    transform: translate(0%, 50%);
     justify-content: space-around;
     font-family: Monospace;
     height: 100vh;
