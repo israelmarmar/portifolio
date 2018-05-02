@@ -121,8 +121,7 @@ h3{
     align-items: flex-end; 
     justify-content: space-around;
     font-family: Monospace;
-
-
+    height: 100vh;
 }
 
 .headpage .intro-text {
