@@ -113,7 +113,6 @@ h3{
     background-color:#00995c;
     color: #fff;
     text-align: right;
-    padding: 70px 10% 50px;
     justify-content: space-around;
     font-family: Monospace;
     height: 100vh;
@@ -123,6 +122,7 @@ h3{
     max-width: 675px;
     text-align: center;
     margin-bottom: 30px;
+    transform: translate(0, 50%);
 }
 
 #desc{
@@ -147,7 +147,6 @@ h3{
 
 @media  (min-width: 1023px){
 .headpage{
-    padding-top: 90px;
     padding-right: 30px;
     padding-bottom: 50px;
     padding-left: 30px;
@@ -155,7 +154,6 @@ h3{
 
   h1{
   font-size:55px;
-  margin-top:60px;
   }
 
   h2{
