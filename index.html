@@ -20,18 +20,6 @@
 </head>
 
 <body translate="no" id="top">
-  
-  <script>
-    var $grid = $('.grid').masonry({
-          itemSelector: '.grid-item',
-          percentPosition: true,
-          columnWidth: '.grid-sizer'
-        });
-// layout Masonry after each image loads
-$grid.imagesLoaded().progress( function() {
-  $grid.masonry();
-});  
-  </script>
 
   <svg class="defs-only">
     <filter id="duotone" color-interpolation-filters="sRGB"
@@ -192,7 +180,20 @@ $grid.imagesLoaded().progress( function() {
 
      <script>
 
-    
+      $(document).ready(function(){
+
+        var $grid = $('.grid').masonry({
+          itemSelector: '.grid-item',
+          percentPosition: true,
+          columnWidth: '.grid-sizer'
+        });
+// layout Masonry after each image loads
+$grid.imagesLoaded().progress( function() {
+  $grid.masonry();
+});  
+
+
+
   // Add smooth scrolling to all links
   $("a").on('click', function(event) {
 
