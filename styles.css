@@ -48,10 +48,6 @@ font-family: sans-serif;
 
 /* ---- .grid-item ---- */
 
-.grid-sizer,
-.grid-item {
-  width: 33.333%;
-}
 
 .grid-item {
   float: left;
@@ -178,6 +174,11 @@ html { overflow-y: scroll; }
 
 body { font-family: sans-serif; }
 
+.grid-sizer,
+.grid-item {
+  width: 33.333%;
+}
+
 
 .headpage{
     padding-right: 30px;
@@ -210,6 +211,11 @@ body { font-family: sans-serif; }
   width:400px;
   color:white;
 
+}
+
+.grid-sizer,
+.grid-item {
+  width: 100%;
 }
 
   .port{
@@ -254,6 +260,11 @@ h2{
   width:400px;
   color:white;
   
+}
+
+.grid-sizer,
+.grid-item {
+  width: 100%;
 }
 
 
