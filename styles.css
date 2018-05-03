@@ -39,6 +39,30 @@ font-family: sans-serif;
 
 }
 
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- .grid-item ---- */
+
+.grid-sizer,
+.grid-item {
+  width: 33.333%;
+}
+
+.grid-item {
+  float: left;
+}
+
+.grid-item img {
+  display: block;
+  max-width: 100%;
+}
+
+
 .contact-button{
   
   padding-top: 13px;
@@ -155,31 +179,6 @@ html { overflow-y: scroll; }
 body { font-family: sans-serif; }
 
 
-/* clear fix */
-.grid:after {
-  content: '';
-  display: block;
-  clear: both;
-}
-
-/* ---- .grid-item ---- */
-
-.grid-sizer,
-.grid-item {
-  width: 33.333%;
-}
-
-.grid-item {
-  float: left;
-}
-
-.grid-item img {
-  display: block;
-  max-width: 100%;
-}
-
-
-
 .headpage{
     padding-right: 30px;
     padding-bottom: 50px;
@@ -247,18 +246,6 @@ h2{
 
 
 @media  (min-width: 768px) {
-
-  .port{
- 
-  width:392px;
-  height: 226px;
-  margin: 0 auto;
-
-  margin-bottom: 10px;
-  margin-right: 10px;
-}
-
-
 
   #about{
   text-align:left;
