@@ -158,7 +158,7 @@ h3{
   text-align: center; 
   font-family: Monospace;
   margin-bottom: 70px;
-  height: 100vh;
+  padding-bottom: 100px;
 }
 
 @media  (min-width: 1023px){
