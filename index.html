@@ -208,6 +208,10 @@
 
     </main>
 
+    <div class="alert alert-success">
+    <strong>Success!</strong> Message have sent successfully!
+   </div>
+
     <script>
 
       $(document).ready(function(){
@@ -223,7 +227,10 @@
            data: $("#send").serialize(),
            success: function(data)
            {
-               alert(data); 
+               $(".alert").show(500);
+
+               setTimeout(function(){ $(".alert").hide(500); }, 4000);
+
             }
            });
 
