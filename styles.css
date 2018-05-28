@@ -4,7 +4,8 @@ body{
 }
 
 .alert{
-   display: fixed;
+   display: block;
+   position: fixed;
 }
 
 
