@@ -3,6 +3,11 @@ body{
   font-family:Helvetica,Arial;
 }
 
+.alert{
+   visibility: hidden;
+   display: fixed;
+}
+
 
 #abd{
   background-color: #00994d;
