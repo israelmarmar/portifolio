@@ -10,6 +10,7 @@
  
  <link rel="stylesheet prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
  <link rel="stylesheet prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+ <link rel="stylesheet prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css">
  <link rel="stylesheet prefetch" href="styles.css">
 
  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
@@ -201,7 +202,7 @@
 </div>
 
 <div class="form-group">
-   <input class="btn btn-primary btn-lg" type="submit" value="Submit">
+   <button class="btn btn-primary btn-lg" type="submit">Send</button>
 </div>
 
 </form>
@@ -221,7 +222,14 @@
 
     $("#send").submit(function(e) {
 
-     var url = "https://sendmail-imm.herokuapp.com/"; 
+     var url = "https://sendmail-imm.herokuapp.com/";
+
+     var $button = $(this).find(".btn");
+
+     console.log($button);
+
+     $button.html("<i class='fa fa-spinner fa-spin '></i>Sending");
+     $button.prop( "disabled", true );
 
      $.ajax({
       type: "GET",
@@ -230,8 +238,12 @@
       success: function(data)
       {
         $(".alert").show(500);
+        $button.html('Send');
+        $button.prop( "disabled", false );
 
-        setTimeout(function(){ $(".alert").hide(500); }, 4000);
+        setTimeout(function(){ 
+          $(".alert").hide(500); 
+      }, 4000);
 
      }
   });
