@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ 
+ <title>Portifolio</title>
+ 
+ 
+ 
+ <link rel="stylesheet prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+ <link rel="stylesheet prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+ <link rel="stylesheet prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css">
+ <link rel="stylesheet prefetch" href="styles.css">
+
+ <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+ <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js'></script>
+ <script src='https://masonry.desandro.com/masonry.pkgd.js'></script>
+ <script src='https://imagesloaded.desandro.com/imagesloaded.pkgd.js'></script>
+
+</head>
+
+<body translate="no" id="top">
+
+ <svg class="defs-only">
+  <filter id="duotone" color-interpolation-filters="sRGB"
+  x="0" y="0" height="100%" width="100%">
+  <feColorMatrix type="matrix"
+  values="0 0 0 0 .7  0 0 0 0 .4  0 0 0 0 .5  0 0 0 1 0" />
+</filter>
+</svg>
+
+<div id="popup" class="navbar navbar-default navbar-static-top navbar-light" role="navigation">
+ <div class="container">
+
+  <div class="navbar-header">
+
+   <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-slide-dropdown">
+    <span class="sr-only">Toggle navigation</span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+
+ </button>
+
+ <a class="navbar-brand" ui-sref="cards">Israel Martins</a>
+</div>
+
+
+<div class="collapse navbar-collapse" id="bs-slide-dropdown">
+
+ <ul class="nav navbar-nav navbar-right">
+
+   <li><a class="grid-item" href="https://israelmarmar.github.io/portifolio/#top">About</a></li>
+
+   <li><a class="grid-item" href="https://israelmarmar.github.io/portifolio/#work">Work</a></li>
+
+   <li><a class="grid-item" href="https://israelmarmar.github.io/">Blog</a></li>
+
+</ul>
+
+</div>
+
+
+</div>
+</div>
+
+<header class="headpage container-fluid">
+
+ <div class="intro-text container">
+  <h1>
+   Hello, I'm Israel
+</h1><br>
+<p id="abt">I am Full Stack developer living in Manaus, Brazil. I make web aplications usually with React and NodeJs.</p>
+
+</div>
+
+</header>
+
+
+<div class="page container-fluid">
+
+ <main class="container">
+
+  <h2 class="text-center" id="work">My work</h2><br>
+
+  <div class="grid">
+
+   <div class="grid-sizer"></div>
+
+
+ <a class="grid-item" href="https://votingapp-isrmm.herokuapp.com/">
+    <img onError="this.onerror=null;this.src='./images/broken.png';" src="./images/https___votingapp-isrmm.herokuapp.com_.png">
+ </a>
+
+ <a class="grid-item" href="https://bookclub-imm.herokuapp.com/">
+    <img onError="this.onerror=null;this.src='./images/broken.png';" src="./images/https___bookclub-imm.herokuapp.com_.png">
+ </a>
+
+ <a class="grid-item" href="https://pinterest-clone-imm.herokuapp.com/">
+    <img onError="this.onerror=null;this.src='./images/broken.png';" src="./images/https___pinterest-clone-imm.herokuapp.com_.png">
+ </a>
+   
+  <a class="grid-item" href="https://wizardly-pike-3bf9e5.netlify.com/">
+    <img onError="this.onerror=null;this.src='./images/broken.png';" src="./images/https___wizardly-pike-3bf9e5.netlify.com_.png">
+ </a>
+   
+   <a class="grid-item" href="https://planodetrabalho.herokuapp.com/">
+    <img onError="this.onerror=null;this.src='./images/broken.png';" src="./images/https___planodetrabalho.herokuapp.com_.png">
+   </a>
+   
+   <a class="grid-item" href="https://epic-tesla-d6da58.netlify.app/">
+    <img onError="this.onerror=null;this.src='./images/broken.png';" src="./images/epic.jpg">
+   </a>
+   
+   <a class="grid-item" href="https://codepen.io/israelmarmar/full/GEjRNa">
+    <img onError="this.onerror=null;this.src='./images/broken.png';" src="images/GEjRNa.jpg">
+   </a>
+   
+   <a class="grid-item" href="https://codepen.io/israelmarmar/full/MoEZWP">
+    <img onError="this.onerror=null;this.src='./images/broken.png';" src="images/MoEZWP.jpg">
+   </a>
+   
+   <a class="grid-item" href="https://codepen.io/israelmarmar/full/vZmWPp">
+    <img onError="this.onerror=null;this.src='./images/broken.png';" src="images/vZmWPp.jpg">
+   </a>
+   
+   <a class="grid-item" href="https://codepen.io/israelmarmar/full/zPZQNb">
+    <img onError="this.onerror=null;this.src='./images/broken.png';" src="images/zPZQNb.jpg">
+   </a>
+
+
+ <a class="grid-item" href="#">
+  <img onError="this.onerror=null;this.src='./images/broken.png';" src="images/comingsoon.jpg">
+</a>
+
+</div>
+
+</main>
+
+<div class="alert alert-success" style="display: none">
+   <strong>Success!</strong> Message have sent successfully!
+</div>
+
+<script>
+
+   $(document).ready(function(){
+
+
+    $("#send").submit(function(e) {
+
+     var url = "https://sendmail-imm.herokuapp.com/";
+
+     var $button = $(this).find(".btn");
+
+     console.log($button);
+
+     $button.html("<i class='fa fa-spinner fa-spin '></i>Sending");
+     $button.prop( "disabled", true );
+
+     $.ajax({
+      type: "GET",
+      url: url,
+      data: $("#send").serialize(),
+      success: function(data)
+      {
+        $(".alert").show(500);
+        $button.html('Send');
+        $button.prop( "disabled", false );
+
+        setTimeout(function(){ 
+          $(".alert").hide(500); 
+      }, 4000);
+
+     }
+  });
+
+     e.preventDefault(); 
+  });
+
+    var $grid = $('.grid').masonry({
+     itemSelector: '.grid-item',
+     percentPosition: true,
+     columnWidth: '.grid-sizer'
+  });
+    
+       // layout Masonry after each image loads
+       $grid.imagesLoaded().progress( function() {
+          $grid.masonry();
+       });  
+
+
+
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+       scrollTop: $(hash).offset().top
+    }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+     });
+    } // End if
+ });
+});
+
+
+</script>
+
+
+
+
+
+
+
+</div>
+
+<div class="container">
+ Designed &amp; Coded by
+ <a rel="nofollow" style="color:white;" href="https://www.linkedin.com/in/israelmarquesmartins/" target="_blank">
+ Israel Martins</a>
+</div>
+
+<div id="btns" class="container">
+  <a rel="nofollow" href="mailto:israel_batista.am@hotmail.com"> <button class="contact-button"><img class="icon"  src="images/favicon.ico"></button></a>
+
+  <a rel="nofollow" href="https://www.linkedin.com/in/israelmarquesmartins/"> <button class="contact-button"><img class="icon" src="images/linkedin.png"></button></a>
+
+  <a rel="nofollow" href="https://github.com/israelmarmar"> <button class="contact-button"><img class="icon" src="images/github.ico"></button></a>
+
+  <a rel="nofollow" href="https://www.freecodecamp.com/israelmarmar"> <button style="position:relative;top:3px;" class="contact-button"><img class="icon" src="images/frecodecamp.png"></button></a>
+
+  <a rel="nofollow" href="https://codepen.io/israelmarmar"> <button style="position:relative;top:3px;" class="contact-button"><img class="icon" src="images/favicon-8ea04875e70c4b0bb41da869e81236e54394d63638a1ef12fa558a4a835f1164.ico"></button></a>
+
+</div>
+
+</body></html>
